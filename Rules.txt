@@ -1,0 +1,36 @@
+Contrive
+
+
+Your task is to create a search engine.
+
+The search engine should be an executable that runs in a standard Linux bash environment.  We will be using a 32-bit Ubuntu 9.04 Live Disk Environment to run your programs.  You may use the language of your choice as long as it runs in this environment without additional installations required (Eg: bash, C, C++, Java)
+
+The engine should take an argument (with spaces if it is in double quotes) the query to be searched for.  No other input should be required.
+The output should be a sorted list of 15 results, from most relevant to least, for the input query.  There should be no other output.
+
+Each result should be just the filename of the html file.
+
+Sample Argument: ./engine "Hello World"
+
+Sample Output:
+link1.html
+link17.html
+link35.html
+link2.html
+link179.html
+link20.html
+link120.html
+link25.html
+link90.html
+link89.html
+link77.html
+link72.html
+link23.html
+link114.html
+link16.html
+
+The set of webpages to search is in the folder 'html'.  All filenames are of the form "link" + number + ".html"
+
+We will be evaluating your engines tomorrow at 8P.M.
+
+Good Luck!

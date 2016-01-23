@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1287830005 source:e:\college\search engine\main.cpp
+	<iostream>
+	<cstring>
+	<cstdlib>
+	<fstream>
+
